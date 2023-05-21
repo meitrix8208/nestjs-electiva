@@ -1,6 +1,6 @@
 -- CreateTable
 CREATE TABLE "User" (
-    "id" TEXT NOT NULL PRIMARY KEY,
+    "id" TEXT NOT NULL,
     "email" TEXT NOT NULL,
     "password" TEXT NOT NULL,
     "name" TEXT NOT NULL,
@@ -13,7 +13,9 @@ CREATE TABLE "User" (
     "state" TEXT,
     "city" TEXT,
     "address" TEXT,
-    "active" BOOLEAN
+    "active" BOOLEAN DEFAULT true,
+
+    CONSTRAINT "User_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateIndex
