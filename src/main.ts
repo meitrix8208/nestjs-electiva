@@ -11,7 +11,7 @@ async function bootstrap() {
     .addTag('user')
     .build();
   const document = SwaggerModule.createDocument(app, config);
-  SwaggerModule.setup('api', app, document); // http://localhost:3000/api
+  SwaggerModule.setup('swagger', app, document); // http://localhost:3000/swagger
   await app.listen(3000);
 }
 bootstrap();
