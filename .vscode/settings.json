@@ -25,5 +25,11 @@
         "titleBar.inactiveBackground": "#24545599",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.color": "#245455"
+    "peacock.color": "#245455",
+    "cSpell.words": [
+        "cuid",
+        "mydb",
+        "nestjs",
+        "postgres"
+    ]
 }

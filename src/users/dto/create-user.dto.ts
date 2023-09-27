@@ -2,7 +2,7 @@ export class CreateUserDto {
   readonly email: string;
   password: string;
   readonly name: string;
-  readonly lastname: string;
+  readonly lastName: string;
   readonly identification: number;
   readonly picture?: string;
   readonly phone?: string;
