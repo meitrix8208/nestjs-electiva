@@ -8,8 +8,8 @@ generator client {
 // DATABASE_URL="postgresql://postgres:password@localhost:5432/mydb?schema=public"
 // docker container run --env=POSTGRES_PASSWORD=password -p 5432:5432 -d postgres
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+  provider = "sqlite"
+  url      = "file:./dev.db"
 }
 
 model User {
